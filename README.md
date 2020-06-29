@@ -19,7 +19,7 @@ One thing to focus here is the recall score of 'functional needs repair' and 'no
 
 The Random Tree Classifier with GridSearchCV has recall scores of 0.5 for 'functional needs repair' and 0.71 for 'non functional'. There are some models such as XGBoost and SVM which have higher recall scores for 'functional needs repair' label but the Random Tree Classifier with GridSearchCV model has the highest recall score for 'non functional'. Therefore, we will select the Random Tree Classifier with GridSearchCV as our model since it has the highest accuracy, f1 and the recall score for 'non functional' label.
 
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/kyawsawhtoon/Pump-It-Up/blob/master/Confusion%20Matrix.JPG)
 
 # Repository Files
 The followings are the file you can find in this repository and their descriptions.
