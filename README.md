@@ -38,6 +38,7 @@ Model the data
 Interpret the data
 
 # Project Conclusion
+
 The Random Forest Classifier with GridSearchCV has the overall highest scores. The Accuracy and F1 scores around 70% is not great but it is signficantly better than 33% of randomly selecting between 3 labels.
 
 One thing to focus here is the recall score of 'functional needs repair' and 'non functional' labels of each model. The recall score is vital it tells us the proportion of actual positives that was identified correctly by our model. In other words, it tells us our model's ability to accurately predict the percentages of water wells that are either functional but needs repair, or non functional. If our model has good recall scores for these two labels, the Tanzanian Ministry of Water can use it in this water well maintenance efforts. By focusing on the recall, we might be compromising the accuracy scores of these two labels. Accuracy tell us the proportion of positive identifications by our model that is actually correct. However, it is quite okay to compromise accuracy here for better recall scores because it will be more detrimental to have a non-functional or a water well that needs repairs identified as functional. In this case, the people who use this particular water well will be out of clean water. On the other hand, if a functional water well is predicted as non-functional or needs repair, it will just waste some of the maintanence team's time to check if the water well is as predicted.
