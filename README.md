@@ -35,9 +35,13 @@ non functional - the waterpoint is not operational
 To construct this model, I will use the data from Taarifa and the Tanzanian Ministry of Water. My approach for this project is to follow the OSEMN framework. The steps of this framework is as follow -
 
 Obtain the data
+
 Scrub the data
+
 Explore the data
+
 Model the data
+
 Interpret the data
 
 # Project Conclusion
