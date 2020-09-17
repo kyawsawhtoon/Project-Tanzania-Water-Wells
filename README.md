@@ -23,7 +23,8 @@ Feature Importance.jpg - The horizontal bar chart that shows the importance of e
 
 Top 5 Feature Importance.jpg - The horizontal bar chart that shows the importance of top 5 independent variable
 
-# Project Goal
+# Project Motivation
+
 The goal of this project is to construct a classification model that can be used to predict the condition of water wells in Tanzania. This model will classify the condition of water wells into 3 categories namely -
 
 functional - the waterpoint is operational and there are no repairs needed
@@ -32,7 +33,9 @@ functional needs repair - the waterpoint is operational, but needs repairs
 
 non functional - the waterpoint is not operational
 
-To construct this model, I will use the data from Taarifa and the Tanzanian Ministry of Water. My approach for this project is to follow the OSEMN framework. The steps of this framework is as follow -
+# Project Process
+
+My approach for this project is to follow the OSEMN framework. The steps of this framework is as follow -
 
 Obtain the data
 
@@ -43,6 +46,17 @@ Explore the data
 Model the data
 
 Interpret the data
+
+# Data Source
+
+To construct this model, I will use the data from Taarifa and the Tanzanian Ministry of Water. The original data is originally divided into 3 csv files -
+
+Test set values: The independent variables that need predictions
+
+Training set labels: The dependent variable (status_group) for each of the rows in Training set values
+
+Training set values: The independent variables for the training set
+
 
 # Project Conclusion
 
